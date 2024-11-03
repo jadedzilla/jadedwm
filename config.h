@@ -20,6 +20,9 @@ static const char *colors[][3]      = {
 
 static const char *const autostart[] = {
 	"alacritty", NULL,
+	"dunst", NULL,
+    "picom", "-b", NULL,
+    "sh", "-c", "feh --randomize --bg-fill ~/Pictures/Backgrounds/*", NULL,
 	"slstatus", NULL,
 	NULL /* terminate */
 };
